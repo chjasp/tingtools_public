@@ -1,0 +1,65 @@
+.sidebar {
+  position: absolute;
+  top: 28%;
+  margin-left: -0%;
+}
+
+.open {
+  font-size: 2rem;
+  left: -100%;
+}
+
+.close {
+  font-size: 2rem;
+  margin-left: 35%;
+}
+
+.nav-menu {
+  backdrop-filter: blur(70px);
+  width: 250px;
+  height: 100vh;
+  position: relative;
+  border-right: solid #251F89 5px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
