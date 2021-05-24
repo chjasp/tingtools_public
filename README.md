@@ -1,4 +1,4 @@
-# tingtools (public/demo-version)
+# tingtools (public/demo-version) -- outdated (-> https://kreation.ai)
 
 # Tools overview
 
